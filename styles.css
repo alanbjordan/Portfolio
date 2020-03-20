@@ -176,7 +176,7 @@ section {
 
 .frontEndTechStackLogos img {
     grid-row: 3 / span 1;
-    width: 15%;
+    width: 12%;
     height: 60%; 
     padding-left: 5%;
 }
@@ -184,6 +184,7 @@ section {
 .frontEndText {
     grid-row: 2 / span 1;
     grid-column: 1 / span 1;
+    text-align: center;
     /* border: 3px solid green; */
 
 
@@ -191,9 +192,13 @@ section {
 }
 
 .frontEndText p {
-    text-shadow: 12px 12px 15px black;
+    /* text-shadow: 12px 12px 15px black; */
     font-size: 3em;
-    color: white;
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    width: 50%;
+    margin-left: 25%;
     /* text-decoration: underline; */
 
 }
@@ -210,11 +215,13 @@ section {
 
 .toolsLogos img {
     grid-row: 2 / span 1;
-    width: 15%;
+    width: 12%;
     height: 60%; 
     padding-left: 5%;
+
     
 }
+
 
 .toolsText {
     grid-row: 2 / span 1;
@@ -223,12 +230,12 @@ section {
 }
 
 .toolsText p {
-    text-shadow: 12px 12px 15px black;
     font-size: 3em;
-    color: white;
-    /* text-decoration: underline; */
-    /* border: green 1px solid; */
-
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    width: 50%;
+    margin-left: 28%;
 }
 
 .backEndLogos {
@@ -242,7 +249,7 @@ section {
 
 .backEndLogos img {
     grid-row: 2 / span 1;
-    width: 15%;
+    width: 12%;
     height: 60%; 
     padding-left: 5%;
 }
@@ -250,24 +257,23 @@ section {
 .backEndText {
     grid-row: 2 / span 1;
     grid-column: 3 / span 1;
-    text-shadow: 12px 12px 15px black;
-    /* border: green 1px solid; */
 }
 
 .backEndText p {
     font-size: 3em;
-    color: white;
-    /* text-decoration: underline; */
-    /* border: green 1px solid; */
-
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    width: 50%;
+    margin-left: 25%;
 }
 
-.backEndBox {
+/* .backEndBox {
     grid-row: 2 / span 2;
     grid-column: 1 / span 3;
-    /* border: white 1px solid; */
+    border: white 1px solid;
     background-color: rgba(250, 248, 248, .05);
-}
+} */
 
 .scrollDown {
 
@@ -323,6 +329,50 @@ section {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     /* text-shadow: 2px 2px 5px black; */
 }
+
+.portfolioProject1 {
+    grid-row: 2 / span 4;
+    grid-column: 1 / span 1 ;
+}
+
+.portfolioProject1 img {
+    width: 80%;
+    height: 80%;
+}
+
+.portfolioProject2 {
+    grid-row: 2 / span 4;
+    grid-column: 2 / span 1 ;
+}
+
+.portfolioProject2 img {
+    width: 80%;
+    height: 80%;
+}
+
+
+.portfolioProject3 {
+    grid-row: 2 / span 4;
+    grid-column: 3 / span 1 ;
+}
+
+.portfolioProject3 img {
+    width: 80%;
+    height: 80%;
+}
+
+.portfolioProject4 {
+    grid-row: 2 / span 4;
+    grid-column: 4 / span 1 ;
+}
+
+.portfolioProject4 img {
+    width: 80%;
+    height: 80%;
+}
+
+
+
 
 .resume {
     width: 100vw;
