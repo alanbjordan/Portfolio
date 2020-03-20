@@ -97,30 +97,17 @@ section {
     width: 55%;
     height: 70%;
     /* border: 1px solid brown; */
-    border-radius: 3px;
+    border-radius: 300px;
     box-shadow: 2px 2px 5px rgba(165, 42, 42, .7);
 }
 
-.aboutBox2a {
-    display: flex;
-    grid-row: 1 / span 2;
-    grid-column: 2 / span 1;
-    border-left: 2px solid rgba(165, 42, 42, .8);
-    border-right: 2px solid rgba(165, 42, 42, .8);
-    box-shadow: 2px 2px 5px rgba(165, 42, 42, .5);
-    align-items: center;
-    justify-content: center;
-}
-
-.aboutBox2a img {
-    width: 99.7%;
-    height: 99.7%;
-}
-
 .aboutBox3 {
+    margin: auto;
+    width: auto;
+    height: auto;
     display: flex;
     grid-row: 1 / span 2;
-    grid-column: 3 / span 1;
+    grid-column: 2 / span 2;
     align-items: center;
     justify-content: center;
     /* border: 3px red solid; */
@@ -135,7 +122,7 @@ section {
 }
 
 .aboutBox3TextBox p {
-    font-size: 1.1em;
+    font-size: 1.3em;
 
 
 }
@@ -148,7 +135,7 @@ section {
     width: 100vw;
     height: 50vh;
     text-align: center;    
-    background-color: rgb(165, 42, 42);
+    /* background-color: rgb(165, 42, 42); */
 }
 
 .skillsBoxTextBox {
@@ -158,14 +145,14 @@ section {
 }
 
 .skillsBoxTextBox p {
-    font-size: 2em;
-    color: white;
+    font-size: 3em;
+    color: rgb(214, 60, 60);
     font-family: sans-serif;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 3px 5px black;
 }
 
 .frontEndTechStackLogos {
-    grid-row: 3 / span 1;
+    grid-row: 2 / span 1;
     grid-column: 1 / span 1;
     /* border: 3px solid green; */
     display: flex;
@@ -175,20 +162,17 @@ section {
 }
 
 .frontEndTechStackLogos img {
-    grid-row: 3 / span 1;
+    /* grid-row: 3 / span 1; */
     width: 12%;
     height: 60%; 
     padding-left: 5%;
 }
 
 .frontEndText {
-    grid-row: 2 / span 1;
+    grid-row: 1 / span 1;
     grid-column: 1 / span 1;
     text-align: center;
     /* border: 3px solid green; */
-
-
-
 }
 
 .frontEndText p {
@@ -199,7 +183,8 @@ section {
     border-radius: 100px;
     width: 50%;
     margin-left: 25%;
-    /* text-decoration: underline; */
+    text-decoration: underline;
+    text-decoration-color: brown;
 
 }
 
@@ -214,14 +199,13 @@ section {
 }
 
 .toolsLogos img {
-    grid-row: 2 / span 1;
+    /* grid-row: 2 / span 1; */
     width: 12%;
     height: 60%; 
     padding-left: 5%;
 
     
 }
-
 
 .toolsText {
     grid-row: 2 / span 1;
@@ -236,10 +220,12 @@ section {
     border-radius: 100px;
     width: 50%;
     margin-left: 28%;
+    text-decoration: underline;
+    text-decoration-color: brown;
 }
 
 .backEndLogos {
-    grid-row: 3 / span 1;
+    grid-row: 2 / span 1;
     grid-column: 3 / span 1;
     /* border: 3px solid green; */
     display: flex;
@@ -248,14 +234,14 @@ section {
 }
 
 .backEndLogos img {
-    grid-row: 2 / span 1;
+    /* grid-row: 2 / span 1; */
     width: 12%;
     height: 60%; 
     padding-left: 5%;
 }
 
 .backEndText {
-    grid-row: 2 / span 1;
+    grid-row: 1 / span 1;
     grid-column: 3 / span 1;
 }
 
@@ -266,14 +252,9 @@ section {
     border-radius: 100px;
     width: 50%;
     margin-left: 25%;
+    text-decoration: underline;
+    text-decoration-color: brown;
 }
-
-/* .backEndBox {
-    grid-row: 2 / span 2;
-    grid-column: 1 / span 3;
-    border: white 1px solid;
-    background-color: rgba(250, 248, 248, .05);
-} */
 
 .scrollDown {
 
@@ -288,6 +269,7 @@ section {
     z-index: 1;
     /* grid-row: 3 / span 3;
     grid-column: 2 / span 1;  */
+    /* background-color: brown; */
     grid-row: 2 / span 1;
     margin-top: 5%;
     width: 5%;
