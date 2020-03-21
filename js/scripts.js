@@ -12,6 +12,4 @@ $(function() {
     });
 });
 
-$( "#section5" ).scroll(function() {
-    $("#imageToAppear").fadeIn();
-   });
+
