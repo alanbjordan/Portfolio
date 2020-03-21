@@ -410,7 +410,7 @@ section
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
     width: 100vw;
-    height: 42.5vh;
+    height: 40vh;
     text-align: center;
 
 }
@@ -497,7 +497,7 @@ section
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr ;
     width: 100vw;
-    height: 38.5vh;
+    height: 40vh;
     text-align: center;
     background-color: rgb(165, 42, 42);
 }
@@ -619,22 +619,22 @@ section
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
     text-align: center;
     width: 100vw;
-    height: 16vh;
-    background-color: rgb(70, 68, 68);
+    height: 20vh;
+    /* background-color: rgb(70, 68, 68); */
 }
 
 .footer-title1
 {
-    color: white;
+    color: brown;
     grid-row: 2 / span 1;
     grid-column: 1 / span 1;
 }
 
 .footer-title2
 {
-    color: white;
+    color: brown;
     grid-row: 2 / span 1;
-    grid-column: 2 / span 1;
+    grid-column: 1 / span 2;
 }
 
 
@@ -657,4 +657,6 @@ section
     padding-top: 20%;
     width: 4%;
 }
+
+
 
