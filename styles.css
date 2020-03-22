@@ -316,7 +316,7 @@ section
 
 .div2 hr
 {
-    border: rgb(214, 60, 60) 1px solid;
+    border: brown 1px solid;
     z-index: 1;
     padding: 0;
     margin-top: 0;
@@ -353,10 +353,15 @@ section
     z-index: 1;
 }
 
-.featureTop img 
+.featureTop .laptop
 {
-    grid-row: 1 / span 6;
-    grid-column: 5 / span 2;
+    grid-row: 2 / span 2;
+    grid-column: 6 / span 3;
+}
+
+.featureTop .laptop img 
+{
+    width: 35vw
 }
 
 .featureTopTextBox
@@ -369,6 +374,8 @@ section
     border-radius: 10px;
     background-color: rgb(36, 6, 99);
     box-shadow: 2px 2px 5px rgba(146, 145, 145, 0.7);
+
+    border: 2px green solid;
 
 }
 
@@ -386,7 +393,7 @@ section
 .featureTopTextBox p
 {
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1.3vw;
     text-shadow: 2px 6px 5px black;
 }
 
