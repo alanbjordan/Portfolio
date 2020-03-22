@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
 
@@ -33,13 +34,10 @@
                 </div>
             </div>  
         </section>
-        <section>
-
+        <section id="section3">
         </section>
-        <section class="div2">
-            <hr id="section3">   
-            <div class="about">
-                
+        <section class="div2"  data-aos="fade-up"> 
+            <div class="about">  
                 <div class="aboutBox1">
                     <img src="/images/alan.JPG">   
                 </div>             
@@ -100,9 +98,7 @@
                 <span class="scrollDown"><a href="#section5">
                     <img src="/images/bestarrowbrown.png">
                 </a></span>
-            </div>
-
-
+                </div>
             </div>
         </section>
         <section class="featuredPro" id="section5">
@@ -226,5 +222,11 @@
             </div>
         </section>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 2000
+      });
+    </script>
 </body>
 </html>
