@@ -107,7 +107,6 @@ section
 {
     grid-row: 1 / span 2;
     grid-column: 1 / span 1;
-    /* border: 3px red solid; */
 }
 
 .aboutBox1 img 
@@ -116,7 +115,6 @@ section
     margin-left: 20%;
     width: 55%;
     height: 70%;
-    /* border: 1px solid brown; */
     border-radius: 300px;
     box-shadow: 2px 2px 5px rgba(165, 42, 42, .7);
 }
@@ -131,7 +129,6 @@ section
     grid-column: 2 / span 2;
     align-items: center;
     justify-content: center;
-    /* border: 3px red solid; */
 }
 
 .aboutBox3TextBox 
@@ -139,21 +136,27 @@ section
     height: 100%;
     width: 70%;
     text-align: left;
-    /* border: 1px solid blue; */
-
 }
 
 .aboutBox3TextBox p 
 {
     font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-
+.abMe 
+{
+    font-size: 3em;
+    align-items: center;
+    color: rgb(196, 63, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 3px 5px rgb(119, 115, 115);
 }
 
 .featuredPro
 {
     position: absolute;
-    background-image: url('../images/1fastfooddiv.png');
+    background-image: url('../images/1lgfast.png');
     background-repeat: no-repeat;
 }
 
@@ -161,9 +164,9 @@ section
 {
     z-index: 0;
     position: absolute;
-    /* margin-left: -3px; */
     padding: 0;
     width: 100vw;
+    height: 100vh;
 }
 
 .featureTop
@@ -181,6 +184,43 @@ section
     grid-column: 5 / span 2;
 }
 
+.featureTopTextBox
+{
+    grid-row: 3 / span 3;
+    grid-column: 2 / span 3;
+    padding: 10px;
+    color: white;
+    border: black 2px double;
+    border-radius: 10px;
+    background-color: rgb(36, 6, 99);
+    box-shadow: 2px 2px 5px rgba(146, 145, 145, 0.7);
+
+}
+
+.featureTopTextBox h1
+{
+    text-align: center;
+    text-shadow: 2px 8px 5px black;
+}
+
+.featureTopTextBox h2
+{
+    text-shadow: 2px 8px 5px black;
+}
+
+.featureTopTextBox p
+{
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 2px 6px 5px black;
+}
+
+.featureTopTextBox .names1
+{
+    text-align: center;
+
+}
+
 .featureText{
     color: white;
     grid-column: 4 / span 2;
@@ -188,7 +228,25 @@ section
     text-align: center;
     font-size: 2.2em;
     font-family: sans-serif;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, .5); */
+    text-shadow: 2px 6px 5px black;
+}
+
+.featureLogo 
+{
+    grid-row: 4 / span 2;
+    grid-column: 4 / span 1;
+    align-self: center;
+}
+
+.featureLogo img
+{
+    padding: 10%;
+    z-index: 1;
+    width: 60%;
+    height: 60%;
+    border-radius: 30px;
+    cursor: pointer;
 }
 
 .skills 
@@ -200,7 +258,6 @@ section
     width: 100vw;
     height: 50vh;
     text-align: center;    
-    /* background-color: rgb(165, 42, 42); */
 }
 
 .skillsBoxTextBox 
@@ -208,30 +265,28 @@ section
     grid-row: 1 / span 1;
     grid-column: 2 / span 1;
     text-align: center;
+    
 }
 
 .skillsBoxTextBox p 
 {
     font-size: 3em;
-    color: rgb(214, 60, 60);
-    font-family: sans-serif;
-    text-shadow: 2px 3px 5px black;
+    color: rgb(196, 63, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 3px 5px rgb(119, 115, 115);
 }
 
 .frontEndTechStackLogos 
 {
     grid-row: 2 / span 1;
     grid-column: 1 / span 1;
-    /* border: 3px solid green; */
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .frontEndTechStackLogos img 
 {
-    /* grid-row: 3 / span 1; */
     width: 12%;
     height: 60%; 
     padding-left: 5%;
@@ -242,12 +297,10 @@ section
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
     text-align: center;
-    /* border: 3px solid green; */
 }
 
 .frontEndText p 
 {
-    /* text-shadow: 12px 12px 15px black; */
     font-size: 3em;
     color: black;
     background-color: white;
@@ -256,35 +309,28 @@ section
     margin-left: 25%;
     text-decoration: underline;
     text-decoration-color: brown;
-
 }
 
 .toolsLogos 
 {
     grid-row: 3 / span 1;
     grid-column: 2 / span 1;
-    /* border: 3px solid green; */
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .toolsLogos img 
 {
-    /* grid-row: 2 / span 1; */
     width: 13%;
     height: 60%; 
     padding-left: 5%;
-
-    
 }
 
 .toolsText 
 {
     grid-row: 2 / span 1;
     grid-column: 2 / span 1;
-    /* border: green 1px solid; */
 }
 
 .toolsText p 
@@ -303,7 +349,6 @@ section
 {
     grid-row: 2 / span 1;
     grid-column: 3 / span 1;
-    /* border: 3px solid green; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -311,7 +356,6 @@ section
 
 .backEndLogos img 
 {
-    /* grid-row: 2 / span 1; */
     width: 12%;
     height: 60%; 
     padding-left: 5%;
@@ -337,7 +381,6 @@ section
 
 .scrollDown 
 {
-
     z-index: 1;
     grid-row: 4 / span 1;
     grid-column: 2 / span 1;
@@ -348,37 +391,26 @@ section
 .scrollDown img 
 {    
     z-index: 1;
-    /* grid-row: 3 / span 3;
-    grid-column: 2 / span 1;  */
-    /* background-color: brown; */
     grid-row: 2 / span 1;
     margin-top: 3%;
     width: 5%;
-
 }
 
 
 .scrollDownf 
 {
-
     z-index: 1;
     grid-row: 7 / span 1;
     grid-column:  4/ span 2;
     text-align: center;
-    /* display: grid; */
-    /* grid-template-rows: 1fr 1fr; */
 }
 
 .scrollDownf img 
 {    
     z-index: 1;
-    /* grid-row: 6 / span 1;
-    grid-column: 4 / span 2;  */
-    /* background-color: brown; */
     grid-row: 2 / span 1;
     margin-top: 16%;
     width: 6%;
-
 }
 
 .scrollDown1 img 
@@ -392,11 +424,10 @@ section
 
 .div2 hr
 {
-    border: rgb(214, 60, 60) 2px solid;
+    border: rgb(214, 60, 60) 2px dashed;
     z-index: 1;
     padding: 0;
     margin: 0;
-
 }
 
 .div3 
@@ -412,7 +443,6 @@ section
     width: 100vw;
     height: 40vh;
     text-align: center;
-
 }
 
 .portfolioBoxTextBox 
@@ -440,7 +470,7 @@ section
 {
     width: 80%;
     height: 80%;
-    border: 3px solid brown;
+    border: 3px double brown;
     border-radius: 9px;
     box-shadow: 1px 9px 10px rgba(165, 42, 42, .7);
 }
@@ -455,7 +485,7 @@ section
 {
     width: 80%;
     height: 80%;
-    border: 3px solid brown;
+    border: 3px double brown;
     border-radius: 9px;
     box-shadow: 1px 9px 10px rgba(165, 42, 42, .7);
 }
@@ -471,7 +501,7 @@ section
 {
     width: 80%;
     height: 80%;
-    border: 3px solid brown;
+    border: 3px double brown;
     border-radius: 9px;
     box-shadow: 1px 9px 10px rgba(165, 42, 42, .7);
 }
@@ -486,7 +516,7 @@ section
 {
     width: 80%;
     height: 80%;
-    border: 3px solid brown;
+    border: 3px double brown;
     border-radius: 9px;
     box-shadow: 1px 9px 10px rgba(165, 42, 42, .7);
 }
@@ -510,7 +540,6 @@ section
 }
 
 .resumeBoxTextBox 
-
 {
     margin: 0px;
     grid-row: 1 / span 4;
@@ -518,43 +547,35 @@ section
 }
 
 .resumeBoxTextBox p 
-
 {
     font-size: 2em;
     color: white;
     font-family: sans-serif;
     text-shadow: 2px 2px 5px black;
-
 }
 
-
 .leadership 
-
 {
     grid-row: 2 / span 1;
     grid-column: 2 / span 1;
-
 }
 
 .customer
 {
     grid-row: 2 / span 1;
     grid-column: 3 / span 1;
-
 }
 
 .training
 {
     grid-row: 2 / span 1;
     grid-column: 1 / span 1;
-
 }
 
 .mentorship 
 {
     grid-row: 2 / span 1;
     grid-column: 4 / span 1;
-
 }
 
 
@@ -562,28 +583,24 @@ section
 {
     grid-row: 3 / span 1;
     grid-column: 1 / span 1;
-
 }
 
 .management
 {
     grid-row: 3 / span 1;
     grid-column: 2 / span 1;
-
 }
 
 .sales
 {
     grid-row: 3 / span 1;
     grid-column: 3 / span 1;
-
 }
 
 .change 
 {
     grid-row: 3 / span 1;
     grid-column: 4 / span 1;
-
 }
 
 .text-adjust 
@@ -592,7 +609,6 @@ section
     text-shadow: 2px 2px 5px black;
     text-decoration: underline;    
 }
-
 
 .resumeClick 
 {
@@ -612,7 +628,6 @@ section
     text-shadow: 1px 2px 2px black;
     height: 20%;
 } 
-
 
 .footer 
 {
@@ -645,7 +660,6 @@ section
     text-align: left;
 }
 
-
 .scrollUp 
 {   
     grid-column: 3 / span 2 ;
@@ -655,20 +669,9 @@ section
     justify-content: center;
     margin: 0;
     padding: 0;
-    /* border: black 1px solid; */
-
 }
 
 .scrollUp a {
     color: white;
 }
-
-/* .scrollUp img 
-{
-    z-index: 1;
-    padding-top: 20%;
-    width: 4%;
-} */
-
-
 
