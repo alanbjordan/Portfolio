@@ -332,7 +332,7 @@ section
     border: rgb(214, 60, 60) 1px solid;
     z-index: 1;
     padding: 0;
-    margin-top: 1%;
+    margin-top: 0;
 }
 
 .div3 
@@ -628,9 +628,9 @@ section
     cursor: pointer;
     text-shadow: 1px 2px 2px black;
     height: 20%;
-}  */
+}  
 
-/* .footer 
+.footer 
 {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -818,14 +818,14 @@ section
 
     display: grid;    
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;   
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;   
     width: 100vw;
     height: 50vh;
 }
 
 .frontEndText 
 {
-    grid-row: 1 / span 1;
+    grid-row: 1 / span 2;
     grid-column: 1 / span 7;
 }
 
@@ -839,7 +839,7 @@ section
 
 .frontEndTechStackLogos 
 {
-    grid-row: 2 / span 1;
+    grid-row: 2 / span 2;
     grid-column: 1 / span 7;
     display: flex;
     align-items: center;
@@ -851,9 +851,39 @@ section
     padding-left: 5%;
 }
 
+
+.backEndText 
+{
+    grid-row: 4 / span 2;
+    grid-column: 1 / span 7;
+}
+
+.backEndText p 
+{
+    font-size: 1em;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+
+.backEndLogos 
+{
+    grid-row: 5 / span 2;
+    grid-column: 1 / span 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backEndLogos img 
+{
+    padding-left: 5%;
+}
+
+
 .toolsText 
 {
-    grid-row: 5 / span 1;
+    grid-row: 7 / span 2;
     grid-column: 1 / span 7;
 }
 
@@ -868,7 +898,7 @@ section
 
 .toolsLogos 
 {
-    grid-row: 6 / span 1;
+    grid-row: 8 / span 2;
     grid-column: 1 / span 7;
     display: flex;
     align-items: center;
@@ -880,38 +910,10 @@ section
     padding-left: 5%;
 }
 
-.backEndText 
-{
-    grid-row: 3 / span 1;
-    grid-column: 1 / span 7;
-}
-
-.backEndText p 
-{
-    font-size: 1em;
-    color: black;
-    text-decoration: underline;
-    text-decoration-color: brown;
-}
-
-.backEndLogos 
-{
-    grid-row: 4 / span 1;
-    grid-column: 1 / span 7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.backEndLogos img 
-{
-    padding-left: 5%;
-}
-
 .scrollDown 
 {
     z-index: 1;
-    grid-row: 7 / span 1;
+    grid-row: 10 / span 1;
     grid-column: 2 / span 5;
     display: grid;
     grid-template-rows: 1fr 1fr;
