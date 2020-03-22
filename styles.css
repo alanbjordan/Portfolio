@@ -627,7 +627,7 @@ section
 .footer 
 {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
     text-align: center;
     width: 100vw;
@@ -635,40 +635,74 @@ section
     background-color: rgb(70, 68, 68);
 }
 
-.footer-title1
+
+.heroLogos2
 {
-    color: brown;
-    grid-row: 2 / span 1;
-    grid-column: 1 / span 3;
+    grid-row: 2 / span 2;
+    grid-column: 1 / span 1;
 }
 
-.footer-title1 img
+.heroLogos2 img
 {
-    margin: 58px;
+    width: 3vw;
+    cursor: pointer;
 }
+
+.heroLogos3 
+{
+    grid-row: 4 / span 2;
+    grid-column: 1 / span 1;
+}
+
+.heroLogos3 img
+{
+    width: 2vw;
+    cursor: pointer;
+}
+
+.heroLogos4 
+{
+    grid-row: 2 / span 2;
+    grid-column: 2 / span 1;
+}
+
+.heroLogos4 img
+{
+    width: 3vw;
+    cursor: pointer;
+}
+
+.heroLogos5 
+{
+    grid-row: 4 / span 2;
+    grid-column: 2 / span 1;
+}
+
+.heroLogos5 img
+{
+    width: 3vw;
+    cursor: pointer;
+} 
 
 .footer-title2
 {
     color: white;
-    grid-row: 2 / span 1;
+    grid-row: 2 / span 4;
     grid-column: 5 / span 2;
     text-align: left;
+    font-size: 1vw;
 }
 
-.scrollUp 
-{   
-    grid-column: 3 / span 2 ;
-    grid-row: 2 span / 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+.backTop 
+{
+    grid-row: 3 / span 2;
+    grid-column: 3 / span 2;
 }
 
-.scrollUp a {
+.backTop a {
     color: white;
 }
+
 @media screen and (max-width: 374px) {
 
     section 
@@ -4397,7 +4431,7 @@ section
     
     .heroLogos2 img
     {
-        width: 8vw;
+        width: 4vw;
         cursor: pointer;
     }
     
@@ -4410,7 +4444,7 @@ section
     .heroLogos3 img
     {
         margin-top: 20px;
-        width: 6vw;
+        width: 3vw;
         cursor: pointer;
     }
     
@@ -4422,7 +4456,7 @@ section
     
     .heroLogos4 img
     {
-        width: 8vw;
+        width: 4vw;
         cursor: pointer;
     }
     
@@ -4435,7 +4469,7 @@ section
     .heroLogos5 img
     {
         margin-top: 15px;
-        width: 8vw;
+        width: 4vw;
         cursor: pointer;
     }
     
@@ -4443,16 +4477,16 @@ section
     {
         color: white;
         grid-row: 2 / span 8;
-        grid-column: 6 / span 5;
+        grid-column: 6 / span 4;
         text-align: left;
-        font-size: 3vw;
+        font-size: 1vw;
     }
     
     .backTop {
         margin-top: -20px;
-        width: 17vw;
+        width: 1vw;
         grid-row: 1 / span 1;
-        grid-column: 5 / span 5;
+        grid-column: 1 / span 10;
     }
     
     .div2 hr 
@@ -4462,7 +4496,7 @@ section
     
     }
 
-/* @media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) { 
     section 
     {
         width: 100vw;
@@ -5039,7 +5073,7 @@ section
     
     .heroLogos2 img
     {
-        width: 8vw;
+        width: 2vw;
         cursor: pointer;
     }
     
@@ -5052,7 +5086,7 @@ section
     .heroLogos3 img
     {
         margin-top: 20px;
-        width: 6vw;
+        width: 2vw;
         cursor: pointer;
     }
     
@@ -5064,7 +5098,7 @@ section
     
     .heroLogos4 img
     {
-        width: 8vw;
+        width: 2vw;
         cursor: pointer;
     }
     
@@ -5077,7 +5111,7 @@ section
     .heroLogos5 img
     {
         margin-top: 15px;
-        width: 8vw;
+        width: 2vw;
         cursor: pointer;
     }
     
@@ -5102,4 +5136,4 @@ section
         margin-top: -20px;
     }
     
-    } */
+    }  */
