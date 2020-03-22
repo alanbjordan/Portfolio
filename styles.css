@@ -41,6 +41,7 @@ section
     grid-template-rows: 3fr 2fr 2fr 2.2fr .5fr;
     text-align: center;
     background-color: black;
+    background-image: url("../images/header.JPG");
 }
 
 .img1 
@@ -153,101 +154,6 @@ section
     text-shadow: 2px 3px 5px rgb(119, 115, 115);
 }
 
-.featuredPro
-{
-    position: absolute;
-    background-image: url('../images/1lgfast.png');
-    background-repeat: no-repeat;
-}
-
-.featuredPro img
-{
-    z-index: 0;
-    position: absolute;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-}
-
-.featureTop
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    position: relative;
-    z-index: 1;
-}
-
-.featureTop img 
-{
-    grid-row: 1 / span 6;
-    grid-column: 5 / span 2;
-}
-
-.featureTopTextBox
-{
-    grid-row: 3 / span 3;
-    grid-column: 2 / span 3;
-    padding: 10px;
-    color: white;
-    border: black 2px double;
-    border-radius: 10px;
-    background-color: rgb(36, 6, 99);
-    box-shadow: 2px 2px 5px rgba(146, 145, 145, 0.7);
-
-}
-
-.featureTopTextBox h1
-{
-    text-align: center;
-    text-shadow: 2px 8px 5px black;
-}
-
-.featureTopTextBox h2
-{
-    text-shadow: 2px 8px 5px black;
-}
-
-.featureTopTextBox p
-{
-    text-align: left;
-    font-size: 1.5em;
-    text-shadow: 2px 6px 5px black;
-}
-
-.featureTopTextBox .names1
-{
-    text-align: center;
-
-}
-
-.featureText{
-    color: white;
-    grid-column: 4 / span 2;
-    grid-row: 1 / span 1;
-    text-align: center;
-    font-size: 2.2em;
-    font-family: sans-serif;
-    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, .5); */
-    text-shadow: 2px 6px 5px black;
-}
-
-.featureLogo 
-{
-    grid-row: 4 / span 2;
-    grid-column: 4 / span 1;
-    align-self: center;
-}
-
-.featureLogo img
-{
-    padding: 10%;
-    z-index: 1;
-    width: 60%;
-    height: 60%;
-    border-radius: 30px;
-    cursor: pointer;
-}
 
 .skills 
 {
@@ -424,7 +330,7 @@ section
 
 .div2 hr
 {
-    border: rgb(214, 60, 60) 2px dashed;
+    border: rgb(214, 60, 60) 1px dashed;
     z-index: 1;
     padding: 0;
     margin: 0;
@@ -433,6 +339,103 @@ section
 .div3 
 {
     height: 100vh;
+}
+
+
+.featuredPro
+{
+    position: absolute;
+    background-image: url('../images/1lgfast.png');
+    background-repeat: no-repeat;
+}
+
+.featuredPro img
+{
+    z-index: 0;
+    position: absolute;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.featureTop
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    position: relative;
+    z-index: 1;
+}
+
+.featureTop img 
+{
+    grid-row: 1 / span 6;
+    grid-column: 5 / span 2;
+}
+
+.featureTopTextBox
+{
+    grid-row: 3 / span 3;
+    grid-column: 2 / span 3;
+    padding: 10px;
+    color: white;
+    border: black 2px double;
+    border-radius: 10px;
+    background-color: rgb(36, 6, 99);
+    box-shadow: 2px 2px 5px rgba(146, 145, 145, 0.7);
+
+}
+
+.featureTopTextBox h1
+{
+    text-align: center;
+    text-shadow: 2px 8px 5px black;
+}
+
+.featureTopTextBox h2
+{
+    text-shadow: 2px 8px 5px black;
+}
+
+.featureTopTextBox p
+{
+    text-align: left;
+    font-size: 1.5em;
+    text-shadow: 2px 6px 5px black;
+}
+
+.featureTopTextBox .names1
+{
+    text-align: center;
+
+}
+
+.featureText{
+    color: white;
+    grid-column: 4 / span 2;
+    grid-row: 1 / span 1;
+    text-align: center;
+    font-size: 2.2em;
+    font-family: sans-serif;
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, .5); */
+    text-shadow: 2px 6px 5px black;
+}
+
+.featureLogo 
+{
+    grid-row: 4 / span 2;
+    grid-column: 4 / span 1;
+    align-self: center;
+}
+
+.featureLogo img
+{
+    padding: 10%;
+    z-index: 1;
+    width: 60%;
+    height: 60%;
+    border-radius: 30px;
+    cursor: pointer;
 }
 
 .portfolio 
@@ -675,3 +678,282 @@ section
     color: white;
 }
 
+@media screen and (max-width: 375px) {
+
+    section 
+    {
+        width: 100vw;
+        height: 100vh;
+    }
+    .hero a 
+{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: white;
+}
+
+.hero 
+{
+    height: 812px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 3fr 2fr 2fr 2.2fr .5fr;
+    text-align: center;
+    background-color: black;
+    background-image: url("../images/header.JPG");
+}
+
+.alan 
+{
+    margin-top: 20%;
+    font-size: 15vw;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 2;
+    color: rgb(255, 249, 249);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 5px brown;
+}
+
+.developer 
+{
+    padding-top: 21vh;
+    font-size: 8vw;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 2;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    text-shadow: 2px 2px 5px black;
+}
+
+.heroLogos 
+{
+    padding: 8%;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.menu 
+{
+    font-size: 5vw;
+    grid-row:  3/ span 2;
+    grid-column: 1 / span 4;
+    color: white;
+    z-index: 1;
+    text-shadow: 2px 2px 5px black;
+}
+
+.scrollDown1 
+{
+    grid-row: 5 / span 2;
+    grid-column: 2 / span 2;  
+}
+
+.scrollDown1 img 
+{
+    z-index: 1;
+    margin-top: 0%;
+    width: 10%;
+}
+
+.about 
+{
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;    
+    width: 100vw;
+    height: 50vh;
+
+}
+
+.aboutBox1 
+{
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.aboutBox1 img 
+{
+    margin-top: 8%;
+    margin-left: 1%;
+    width: 100%;
+    height: 100%;
+    border-radius: 300px;
+    box-shadow: 2px 2px 5px rgba(165, 42, 42, .7);
+}
+
+.aboutBox3 
+{
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    grid-row: 2 / span 2;
+    grid-column: 1 / span 3;
+}
+
+.aboutBox3TextBox 
+{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutBox3TextBox p 
+{
+    font-size: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.abMe 
+{
+    font-size: 9vw;
+    align-items: center;
+    color: rgb(196, 63, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 3px 5px rgb(119, 115, 115);
+}
+
+.skills 
+{
+
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;   
+    width: 100vw;
+    height: 50vh;
+}
+
+.skillsBoxTextBox 
+{
+    grid-row: 1 / span 1;
+    grid-column: 3 / span 4; 
+}
+
+.skillsBoxTextBox p 
+{
+    font-size: 1em;
+    color: rgb(196, 63, 63);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 3px 5px rgb(119, 115, 115);
+}
+
+.frontEndText 
+{
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 7;
+}
+
+.frontEndText p 
+{
+    font-size: 1em;
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    width: 50%;
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+
+.frontEndTechStackLogos 
+{
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frontEndTechStackLogos img 
+{
+    width: 15%;
+    height: 60%; 
+    padding-left: 5%;
+}
+
+.toolsText 
+{
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 7;
+    text-align: center;
+}
+
+.toolsText p 
+{
+    font-size: 1em;
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    width: 50%;
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+
+.toolsLogos 
+{
+    grid-row: 4 / span 1;
+    grid-column: 2 / span 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolsLogos img 
+{
+    width: 15%;
+    height: 60%; 
+    padding-left: 5%;
+}
+
+.backEndText 
+{
+    grid-row: 5 / span 1;
+    grid-column: 1 / span 7;
+}
+
+.backEndText p 
+{
+    font-size: 1em;
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+    width: 50%;
+    text-decoration: underline;
+    text-decoration-color: brown;
+}
+
+.backEndLogos 
+{
+    grid-row: 6 / span 1;
+    grid-column: 2 / span 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backEndLogos img 
+{
+    width: 15%;
+    height: 60%;
+    padding-left: 5%;
+}
+
+.scrollDown 
+{
+    z-index: 1;
+    grid-row: 7 / span 1;
+    grid-column: 2 / span 5;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.scrollDown img 
+{    
+    z-index: 1;
+    margin-top: 3%;
+    width: 5%;
+}
+
+
+}
