@@ -522,7 +522,7 @@ section
     border-radius: 9px;
     box-shadow: 1px 9px 10px rgba(165, 42, 42, .7);
 }
-/* 
+
 .resume 
 {
     display: grid;
@@ -617,7 +617,6 @@ section
     grid-row: 4 / span 1;
     grid-column: 2 / span 2;
 }
-
 .resumeClick a
 {
     text-decoration: none;
@@ -660,7 +659,7 @@ section
     grid-row: 2 / span 1;
     grid-column: 5 / span 2;
     text-align: left;
-} */
+}
 
 .scrollUp 
 {   
