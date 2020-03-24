@@ -135,8 +135,8 @@ section
 .profilePicture
 {
     margin-top: 5%;
-    width: 15vw;
-    border-radius: 100px;
+    width: 20vw;
+    border-radius: 200px;
 }
 
 .aboutBox3TextBox 
@@ -370,9 +370,8 @@ section
     z-index: 2;
 }
 
-.featureTopTextBox:hover
+.featureLogo:hover
 {
-    margin: 8px;
     cursor: pointer;
 }
 
@@ -455,6 +454,7 @@ section
 {
     grid-row: 1 / span 1;
     grid-column: 1 / span 12;
+    padding-top: 15px ;
 }
 
 .portfolio1 h1
@@ -463,9 +463,9 @@ section
     padding: 0px;
     margin: 0px;
     font-size: 1.2em;
-    color: rgb(214, 60, 60);
+    color: brown;
     font-family: sans-serif;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    text-shadow: 2px 2px 5px rgba(142, 139, 139, 0.5);
 }
 
 .portfolioProject1
@@ -581,6 +581,12 @@ section
     width: 15vw;
     margin: 5px;
 
+
+}
+
+.ftLo img:hover
+{
+    cursor: pointer;
 }
 
 .backTop 
