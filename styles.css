@@ -32,6 +32,7 @@ section
     text-align: center;
     z-index: 1;
     border-bottom: 1px solid black; 
+    border: rgb(209, 205, 205) 3px double;  
 }
 
 .heroBg
@@ -45,6 +46,7 @@ section
     text-decoration: none;
     text-decoration-style: none;
     color: white;
+
 }
 
 .hero p{
@@ -221,9 +223,13 @@ section
 .frontEnd p 
 {
     padding: 0px;
-    margin: 0px;
+    margin: 7px;
     font-size: 4vw;
+    color: white;
     font-family: 'Ubuntu', sans-serif;
+    background-color: brown;
+    border-radius: 10px;
+    border: rgb(255, 255, 255) 3px double;
 }
 
 .frontEnd img 
@@ -239,11 +245,14 @@ section
 
 .backEnd p 
 {
-    padding: 5px;
     padding: 0px;
-    margin: 0px;
+    margin: 7px;
     font-size: 4vw;
+    color: white;
     font-family: 'Ubuntu', sans-serif;
+    background-color: brown;
+    border-radius: 10px;
+    border: rgb(255, 255, 255) 3px double;
 }
 
 .backEnd img 
@@ -259,11 +268,14 @@ section
 
 .tools p 
 {
-    padding: 5px;
     padding: 0px;
-    margin: 0px;
+    margin: 7px;
     font-size: 4vw;
+    color: white;
     font-family: 'Ubuntu', sans-serif;
+    background-color: brown;
+    border-radius: 10px;
+    border: rgb(255, 255, 255) 3px double;
 }
 
 .tools img 
@@ -280,10 +292,15 @@ section
 .other p 
 {
     padding: 0px;
-    margin: 0px;
-    font-size: 3.5vw;
+    margin: 7px;
+    font-size: 4vw;
+    color: white;
     font-family: 'Ubuntu', sans-serif;
+    background-color: brown;
+    border-radius: 10px;
+    border: rgb(255, 255, 255) 3px double;
 }
+
 
 .other img 
 {
@@ -329,6 +346,7 @@ section
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    border: rgb(209, 205, 205) 3px double;
 }
 
 .featuredPro img
@@ -567,6 +585,7 @@ section
     text-align: center;
     color: white;
     background-color: rgba(110, 36, 11, .9);
+    border: rgb(209, 205, 205) 3px double;
     
 }
 
@@ -614,4 +633,69 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     .frontEnd .backEnd .tools p {
         font-size: 3em;
     }
+}
+
+@media screen and (max-width: 700px ) {
+    .portfolio1 
+{
+    background-color: whitesmoke;
+}
+
+.portfolio 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    text-align: center;
+}
+
+.pHeader
+{
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 12;
+    padding-top: 15px ;
+}
+
+.portfolioProject1
+{
+    grid-row: 2 / span 3;
+    grid-column: 1 / span 6 ;
+}
+
+.portfolioProject1 img 
+{
+    width: 30vw;
+    height: 25vw;
+    border: 3px double brown;
+    border-radius: 9px;
+    box-shadow: 1px 9px 10px rgba(165, 42, 42, .7);
+}
+
+.portfolioProject1:hover
+{
+    margin: 0px;
+    cursor: pointer;
+}
+
+.portfolioProject2 
+{
+    grid-row: 5 / span 4;
+    grid-column: 1 / span 6 ;
+}
+
+.portfolioProject3 
+{
+    grid-row: 2 / span 3;
+    grid-column: 7 / span 6 ;
+}
+
+
+.portfolioProject4 
+{
+    grid-row: 5 / span 4;
+    grid-column: 7 / span 6 ;
+}
+
+
 }
