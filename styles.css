@@ -27,6 +27,13 @@ section
 
 }
 
+.portText {
+    text-align: center;
+    width: 65%;
+    /* border: 1px solid black; */
+    margin-left: 20%;
+}
+
 .hero 
 {
     text-align: center;
@@ -490,6 +497,7 @@ section
 {
     grid-row: 2 / span 4;
     grid-column: 1 / span 6 ;
+    text-align: center;
 }
 
 .portfolioProject1 img 
@@ -511,6 +519,7 @@ section
 {
     grid-row: 7 / span 4;
     grid-column: 1 / span 6 ;
+    text-align: center;
 }
 
 .portfolioProject2 img 
@@ -532,6 +541,7 @@ section
 {
     grid-row: 2 / span 4;
     grid-column: 7 / span 6 ;
+    text-align: center;
 }
 
 .portfolioProject3 img 
@@ -553,6 +563,7 @@ section
 {
     grid-row: 7 / span 4;
     grid-column: 7 / span 6 ;
+    text-align: center;
 }
 
 .portfolioProject4 img 
